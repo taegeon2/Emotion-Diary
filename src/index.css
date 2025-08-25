@@ -1,0 +1,29 @@
+/* index.css */
+
+@font-face {
+  font-family: NanumPenScript; /* 폰트 이름 */
+  src: url("/NanumPenScript-Regular.ttf"); /* 로컬 경로에 있는 폰트 파일 불러오기 */
+}
+
+html,
+body {
+  margin: 0px; /* 기본 여백 제거 */
+  width: 100%; /* 가로 너비 전체 사용 */
+  background-color: rgb(246, 246, 246); /* 배경 색상 (연한 회색) */
+  display: flex;
+}
+
+#root {
+  background-color: white;
+  max-width: 600px;
+  width: 100%; /* 화면 크기 줄어들면 100%로 맞춤 */
+  margin: 0 auto; /* 가운데 정렬 */
+  min-height: 100vh; /* 최소 높이를 화면 전체로 */
+  height: 100%; /* 높이 100% */
+  box-shadow: rgba(100, 100, 100, 0.2) 0px 0px 29px 0px;
+  padding: 0px 20px;
+}
+
+body * {
+  font-family: NanumPenScript;
+}
